@@ -21,6 +21,11 @@ public class SewaPS {
         System.out.println("3. PlayStation 4");
         System.out.println("Masukkan nomor seri yang ingin anda sewa (1-3)");
         seri = sc.nextInt();
+        while (seri > 3) {
+            System.out.println("Seri yang anda masukkan tidak terdaftar");
+            System.out.println("Masukkan nomor seri yang ingin anda sewa (1-3)");
+            seri = sc.nextInt();
+        }
         System.out.println("Masukkan lama bermain (jam)");
         LamaPinjam = sc.nextInt();
 
