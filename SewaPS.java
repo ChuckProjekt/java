@@ -11,6 +11,17 @@ public class SewaPS {
         int harga_akhir;
         byte hps2 = 2, hps3 = 4, hps4 = 6;
         
+        System.out.println("##############################");
+        System.out.println("##############################");
+        System.out.println("##                          ##");
+        System.out.println("## Selamat datang di rental ##");
+        System.out.println("##          PS LekSri       ##");
+        System.out.println("##                          ##");
+        System.out.println("##############################");
+        System.out.println("##############################");
+        System.out.println("");
+        System.out.println("");
+
         System.out.print("Masukkan nama anda: ");
         nama = sc.next();
         System.out.print("Masukkan NIM anda: ");
